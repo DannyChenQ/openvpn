@@ -1,0 +1,724 @@
+Tue Aug  1 23:17:21 2017 us=537294 Current Parameter Settings:
+Tue Aug  1 23:17:21 2017 us=537419   config = 'server.conf'
+Tue Aug  1 23:17:21 2017 us=537439   mode = 1
+Tue Aug  1 23:17:21 2017 us=537482   persist_config = DISABLED
+Tue Aug  1 23:17:21 2017 us=537504   persist_mode = 1
+Tue Aug  1 23:17:21 2017 us=537519   show_ciphers = DISABLED
+Tue Aug  1 23:17:21 2017 us=537529   show_digests = DISABLED
+Tue Aug  1 23:17:21 2017 us=537537   show_engines = DISABLED
+Tue Aug  1 23:17:21 2017 us=537546   genkey = DISABLED
+Tue Aug  1 23:17:21 2017 us=537554   key_pass_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537563   show_tls_ciphers = DISABLED
+Tue Aug  1 23:17:21 2017 us=537572   connect_retry_max = 0
+Tue Aug  1 23:17:21 2017 us=537580 Connection profiles [0]:
+Tue Aug  1 23:17:21 2017 us=537599   proto = tcp-server
+Tue Aug  1 23:17:21 2017 us=537610   local = '45.62.97.54'
+Tue Aug  1 23:17:21 2017 us=537618   local_port = '1194'
+Tue Aug  1 23:17:21 2017 us=537627   remote = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537635   remote_port = '1194'
+Tue Aug  1 23:17:21 2017 us=537644   remote_float = DISABLED
+Tue Aug  1 23:17:21 2017 us=537652   bind_defined = DISABLED
+Tue Aug  1 23:17:21 2017 us=537660   bind_local = ENABLED
+Tue Aug  1 23:17:21 2017 us=537668   bind_ipv6_only = DISABLED
+Tue Aug  1 23:17:21 2017 us=537677   connect_retry_seconds = 5
+Tue Aug  1 23:17:21 2017 us=537685   connect_timeout = 120
+Tue Aug  1 23:17:21 2017 us=537694   socks_proxy_server = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537702   socks_proxy_port = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537710   tun_mtu = 1500
+Tue Aug  1 23:17:21 2017 us=537719   tun_mtu_defined = ENABLED
+Tue Aug  1 23:17:21 2017 us=537727   link_mtu = 1500
+Tue Aug  1 23:17:21 2017 us=537735   link_mtu_defined = DISABLED
+Tue Aug  1 23:17:21 2017 us=537744   tun_mtu_extra = 0
+Tue Aug  1 23:17:21 2017 us=537752   tun_mtu_extra_defined = DISABLED
+Tue Aug  1 23:17:21 2017 us=537761   mtu_discover_type = -1
+Tue Aug  1 23:17:21 2017 us=537769   fragment = 0
+Tue Aug  1 23:17:21 2017 us=537777   mssfix = 1450
+Tue Aug  1 23:17:21 2017 us=537786   explicit_exit_notification = 0
+Tue Aug  1 23:17:21 2017 us=537794 Connection profiles END
+Tue Aug  1 23:17:21 2017 us=537803   remote_random = DISABLED
+Tue Aug  1 23:17:21 2017 us=537811   ipchange = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537819   dev = 'tun'
+Tue Aug  1 23:17:21 2017 us=537828   dev_type = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537836   dev_node = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537848   lladdr = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537867   topology = 1
+Tue Aug  1 23:17:21 2017 us=537883   ifconfig_local = '10.8.0.1'
+Tue Aug  1 23:17:21 2017 us=537895   ifconfig_remote_netmask = '10.8.0.2'
+Tue Aug  1 23:17:21 2017 us=537904   ifconfig_noexec = DISABLED
+Tue Aug  1 23:17:21 2017 us=537912   ifconfig_nowarn = DISABLED
+Tue Aug  1 23:17:21 2017 us=537921   ifconfig_ipv6_local = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537934   ifconfig_ipv6_netbits = 0
+Tue Aug  1 23:17:21 2017 us=537943   ifconfig_ipv6_remote = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=537952   shaper = 0
+Tue Aug  1 23:17:21 2017 us=537961   mtu_test = 0
+Tue Aug  1 23:17:21 2017 us=537969   mlock = DISABLED
+Tue Aug  1 23:17:21 2017 us=537978   keepalive_ping = 10
+Tue Aug  1 23:17:21 2017 us=537986   keepalive_timeout = 120
+Tue Aug  1 23:17:21 2017 us=538005   inactivity_timeout = 0
+Tue Aug  1 23:17:21 2017 us=538016   ping_send_timeout = 10
+Tue Aug  1 23:17:21 2017 us=538025   ping_rec_timeout = 240
+Tue Aug  1 23:17:21 2017 us=538033   ping_rec_timeout_action = 2
+Tue Aug  1 23:17:21 2017 us=538042   ping_timer_remote = DISABLED
+Tue Aug  1 23:17:21 2017 us=538050   remap_sigusr1 = 0
+Tue Aug  1 23:17:21 2017 us=538059   persist_tun = ENABLED
+Tue Aug  1 23:17:21 2017 us=538067   persist_local_ip = DISABLED
+Tue Aug  1 23:17:21 2017 us=538076   persist_remote_ip = DISABLED
+Tue Aug  1 23:17:21 2017 us=538099   persist_key = ENABLED
+Tue Aug  1 23:17:21 2017 us=538113   passtos = DISABLED
+Tue Aug  1 23:17:21 2017 us=538122   resolve_retry_seconds = 1000000000
+Tue Aug  1 23:17:21 2017 us=538130   resolve_in_advance = DISABLED
+Tue Aug  1 23:17:21 2017 us=538145   username = 'nobody'
+Tue Aug  1 23:17:21 2017 us=538155   groupname = 'nobody'
+Tue Aug  1 23:17:21 2017 us=538163   chroot_dir = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538171   cd_dir = '/etc/openvpn'
+Tue Aug  1 23:17:21 2017 us=538180   selinux_context = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538189   writepid = '/var/run/openvpn/server.pid'
+Tue Aug  1 23:17:21 2017 us=538197   up_script = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538206   down_script = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538214   down_pre = DISABLED
+Tue Aug  1 23:17:21 2017 us=538222   up_restart = DISABLED
+Tue Aug  1 23:17:21 2017 us=538231   up_delay = DISABLED
+Tue Aug  1 23:17:21 2017 us=538239   daemon = ENABLED
+Tue Aug  1 23:17:21 2017 us=538248   inetd = 0
+Tue Aug  1 23:17:21 2017 us=538256   log = ENABLED
+Tue Aug  1 23:17:21 2017 us=538265   suppress_timestamps = DISABLED
+Tue Aug  1 23:17:21 2017 us=538273   machine_readable_output = DISABLED
+Tue Aug  1 23:17:21 2017 us=538281   nice = 0
+Tue Aug  1 23:17:21 2017 us=538290   verbosity = 5
+Tue Aug  1 23:17:21 2017 us=538298   mute = 0
+Tue Aug  1 23:17:21 2017 us=538306   gremlin = 0
+Tue Aug  1 23:17:21 2017 us=538315   status_file = 'openvpn-status.log'
+Tue Aug  1 23:17:21 2017 us=538323   status_file_version = 1
+Tue Aug  1 23:17:21 2017 us=538331   status_file_update_freq = 60
+Tue Aug  1 23:17:21 2017 us=538340   occ = ENABLED
+Tue Aug  1 23:17:21 2017 us=538348   rcvbuf = 0
+Tue Aug  1 23:17:21 2017 us=538356   sndbuf = 0
+Tue Aug  1 23:17:21 2017 us=538365   mark = 0
+Tue Aug  1 23:17:21 2017 us=538373   sockflags = 0
+Tue Aug  1 23:17:21 2017 us=538381   fast_io = DISABLED
+Tue Aug  1 23:17:21 2017 us=538390   comp.alg = 2
+Tue Aug  1 23:17:21 2017 us=538398   comp.flags = 1
+Tue Aug  1 23:17:21 2017 us=538407   route_script = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538415   route_default_gateway = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538424   route_default_metric = 0
+Tue Aug  1 23:17:21 2017 us=538432   route_noexec = DISABLED
+Tue Aug  1 23:17:21 2017 us=538441   route_delay = 0
+Tue Aug  1 23:17:21 2017 us=538462   route_delay_window = 30
+Tue Aug  1 23:17:21 2017 us=538476   route_delay_defined = DISABLED
+Tue Aug  1 23:17:21 2017 us=538488   route_nopull = DISABLED
+Tue Aug  1 23:17:21 2017 us=538500   route_gateway_via_dhcp = DISABLED
+Tue Aug  1 23:17:21 2017 us=538512   allow_pull_fqdn = DISABLED
+Tue Aug  1 23:17:21 2017 us=538526   route 10.8.0.0/255.255.255.0/default (not set)/default (not set)
+Tue Aug  1 23:17:21 2017 us=538538   route 10.10.1.0/255.255.255.0/default (not set)/default (not set)
+Tue Aug  1 23:17:21 2017 us=538551   management_addr = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538563   management_port = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538575   management_user_pass = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538587   management_log_history_cache = 250
+Tue Aug  1 23:17:21 2017 us=538599   management_echo_buffer_size = 100
+Tue Aug  1 23:17:21 2017 us=538611   management_write_peer_info_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538623   management_client_user = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538635   management_client_group = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538647   management_flags = 0
+Tue Aug  1 23:17:21 2017 us=538659   shared_secret_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538671   key_direction = 1
+Tue Aug  1 23:17:21 2017 us=538683   ciphername = 'AES-256-CBC'
+Tue Aug  1 23:17:21 2017 us=538695   ncp_enabled = ENABLED
+Tue Aug  1 23:17:21 2017 us=538707   ncp_ciphers = 'AES-256-GCM:AES-128-GCM'
+Tue Aug  1 23:17:21 2017 us=538719   authname = 'SHA1'
+Tue Aug  1 23:17:21 2017 us=538730   prng_hash = 'SHA1'
+Tue Aug  1 23:17:21 2017 us=538743   prng_nonce_secret_len = 16
+Tue Aug  1 23:17:21 2017 us=538754   keysize = 0
+Tue Aug  1 23:17:21 2017 us=538766   engine = DISABLED
+Tue Aug  1 23:17:21 2017 us=538778   replay = ENABLED
+Tue Aug  1 23:17:21 2017 us=538790   mute_replay_warnings = DISABLED
+Tue Aug  1 23:17:21 2017 us=538802   replay_window = 64
+Tue Aug  1 23:17:21 2017 us=538814   replay_time = 15
+Tue Aug  1 23:17:21 2017 us=538842   packet_id_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538858   use_iv = ENABLED
+Tue Aug  1 23:17:21 2017 us=538873   test_crypto = DISABLED
+Tue Aug  1 23:17:21 2017 us=538887   tls_server = ENABLED
+Tue Aug  1 23:17:21 2017 us=538901   tls_client = DISABLED
+Tue Aug  1 23:17:21 2017 us=538915   key_method = 2
+Tue Aug  1 23:17:21 2017 us=538929   ca_file = 'keys/ca.crt'
+Tue Aug  1 23:17:21 2017 us=538944   ca_path = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=538958   dh_file = 'keys/dh2048.pem'
+Tue Aug  1 23:17:21 2017 us=538973   cert_file = 'keys/server.crt'
+Tue Aug  1 23:17:21 2017 us=538987   extra_certs_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539001   priv_key_file = 'keys/server.key'
+Tue Aug  1 23:17:21 2017 us=539015   pkcs12_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539030   cipher_list = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539043   tls_verify = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539058   tls_export_cert = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539074   verify_x509_type = 0
+Tue Aug  1 23:17:21 2017 us=539125   verify_x509_name = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539139   crl_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539148   ns_cert_type = 0
+Tue Aug  1 23:17:21 2017 us=539156   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539164   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539173   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539181   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539189   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539198   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539206   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539214   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539222   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539231   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539239   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539247   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539255   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539263   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539271   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539280   remote_cert_ku[i] = 0
+Tue Aug  1 23:17:21 2017 us=539288   remote_cert_eku = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539296   ssl_flags = 0
+Tue Aug  1 23:17:21 2017 us=539305   tls_timeout = 2
+Tue Aug  1 23:17:21 2017 us=539313   renegotiate_bytes = -1
+Tue Aug  1 23:17:21 2017 us=539322   renegotiate_packets = 0
+Tue Aug  1 23:17:21 2017 us=539330   renegotiate_seconds = 3600
+Tue Aug  1 23:17:21 2017 us=539338   handshake_window = 60
+Tue Aug  1 23:17:21 2017 us=539347   transition_window = 3600
+Tue Aug  1 23:17:21 2017 us=539355   single_session = DISABLED
+Tue Aug  1 23:17:21 2017 us=539364   push_peer_info = DISABLED
+Tue Aug  1 23:17:21 2017 us=539372   tls_exit = DISABLED
+Tue Aug  1 23:17:21 2017 us=539381   tls_auth_file = 'keys/ta.key'
+Tue Aug  1 23:17:21 2017 us=539389   tls_crypt_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539398   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539407   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539415   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539428   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539455   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539476   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539495   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539512   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539529   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539545   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539561   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539571   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539579   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539588   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539596   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539615   pkcs11_protected_authentication = DISABLED
+Tue Aug  1 23:17:21 2017 us=539625   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539634   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539642   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539650   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539658   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539667   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539675   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539683   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539691   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539700   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539708   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539723   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539743   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539758   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539775   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539788   pkcs11_private_mode = 00000000
+Tue Aug  1 23:17:21 2017 us=539797   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539805   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539813   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539822   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539830   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539838   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539847   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539855   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539863   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539871   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539880   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539888   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539896   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539905   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539913   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539921   pkcs11_cert_private = DISABLED
+Tue Aug  1 23:17:21 2017 us=539930   pkcs11_pin_cache_period = -1
+Tue Aug  1 23:17:21 2017 us=539938   pkcs11_id = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=539947   pkcs11_id_management = DISABLED
+Tue Aug  1 23:17:21 2017 us=539957   server_network = 10.8.0.0
+Tue Aug  1 23:17:21 2017 us=539966   server_netmask = 255.255.255.0
+Tue Aug  1 23:17:21 2017 us=539982   server_network_ipv6 = ::
+Tue Aug  1 23:17:21 2017 us=539992   server_netbits_ipv6 = 0
+Tue Aug  1 23:17:21 2017 us=540001   server_bridge_ip = 0.0.0.0
+Tue Aug  1 23:17:21 2017 us=540010   server_bridge_netmask = 0.0.0.0
+Tue Aug  1 23:17:21 2017 us=540019   server_bridge_pool_start = 0.0.0.0
+Tue Aug  1 23:17:21 2017 us=540028   server_bridge_pool_end = 0.0.0.0
+Tue Aug  1 23:17:21 2017 us=540037   push_entry = 'route 10.0.0.0 255.0.0.0'
+Tue Aug  1 23:17:21 2017 us=540046   push_entry = 'redirect-gateway'
+Tue Aug  1 23:17:21 2017 us=540054   push_entry = 'dhcp-option DNS 114.114.114.114'
+Tue Aug  1 23:17:21 2017 us=540063   push_entry = 'dhcp-option DNS 8.8.4.4'
+Tue Aug  1 23:17:21 2017 us=540071   push_entry = 'route 10.8.0.0 255.255.255.0'
+Tue Aug  1 23:17:21 2017 us=540080   push_entry = 'topology net30'
+Tue Aug  1 23:17:21 2017 us=540109   push_entry = 'ping 10'
+Tue Aug  1 23:17:21 2017 us=540120   push_entry = 'ping-restart 120'
+Tue Aug  1 23:17:21 2017 us=540128   ifconfig_pool_defined = ENABLED
+Tue Aug  1 23:17:21 2017 us=540142   ifconfig_pool_start = 10.8.0.4
+Tue Aug  1 23:17:21 2017 us=540152   ifconfig_pool_end = 10.8.0.251
+Tue Aug  1 23:17:21 2017 us=540162   ifconfig_pool_netmask = 0.0.0.0
+Tue Aug  1 23:17:21 2017 us=540170   ifconfig_pool_persist_filename = 'ipp.txt'
+Tue Aug  1 23:17:21 2017 us=540179   ifconfig_pool_persist_refresh_freq = 600
+Tue Aug  1 23:17:21 2017 us=540187   ifconfig_ipv6_pool_defined = DISABLED
+Tue Aug  1 23:17:21 2017 us=540201   ifconfig_ipv6_pool_base = ::
+Tue Aug  1 23:17:21 2017 us=540211   ifconfig_ipv6_pool_netbits = 0
+Tue Aug  1 23:17:21 2017 us=540219   n_bcast_buf = 256
+Tue Aug  1 23:17:21 2017 us=540228   tcp_queue_limit = 64
+Tue Aug  1 23:17:21 2017 us=540236   real_hash_size = 256
+Tue Aug  1 23:17:21 2017 us=540244   virtual_hash_size = 256
+Tue Aug  1 23:17:21 2017 us=540253   client_connect_script = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=540261   learn_address_script = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=540270   client_disconnect_script = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=540278   client_config_dir = 'ccd'
+Tue Aug  1 23:17:21 2017 us=540287   ccd_exclusive = DISABLED
+Tue Aug  1 23:17:21 2017 us=540295   tmp_dir = '/tmp'
+Tue Aug  1 23:17:21 2017 us=540304   push_ifconfig_defined = DISABLED
+Tue Aug  1 23:17:21 2017 us=540313   push_ifconfig_local = 0.0.0.0
+Tue Aug  1 23:17:21 2017 us=540322   push_ifconfig_remote_netmask = 0.0.0.0
+Tue Aug  1 23:17:21 2017 us=540330   push_ifconfig_ipv6_defined = DISABLED
+Tue Aug  1 23:17:21 2017 us=540339   push_ifconfig_ipv6_local = ::/0
+Tue Aug  1 23:17:21 2017 us=540348   push_ifconfig_ipv6_remote = ::
+Tue Aug  1 23:17:21 2017 us=540357   enable_c2c = ENABLED
+Tue Aug  1 23:17:21 2017 us=540365   duplicate_cn = ENABLED
+Tue Aug  1 23:17:21 2017 us=540374   cf_max = 0
+Tue Aug  1 23:17:21 2017 us=540382   cf_per = 0
+Tue Aug  1 23:17:21 2017 us=540390   max_clients = 10
+Tue Aug  1 23:17:21 2017 us=540399   max_routes_per_client = 256
+Tue Aug  1 23:17:21 2017 us=540407   auth_user_pass_verify_script = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=540416   auth_user_pass_verify_script_via_file = DISABLED
+Tue Aug  1 23:17:21 2017 us=540424   auth_token_generate = DISABLED
+Tue Aug  1 23:17:21 2017 us=540433   auth_token_lifetime = 0
+Tue Aug  1 23:17:21 2017 us=540441   port_share_host = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=540461   port_share_port = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=540470   client = DISABLED
+Tue Aug  1 23:17:21 2017 us=540479   pull = DISABLED
+Tue Aug  1 23:17:21 2017 us=540488   auth_user_pass_file = '[UNDEF]'
+Tue Aug  1 23:17:21 2017 us=540508 OpenVPN 2.4.3 x86_64-redhat-linux-gnu [Fedora EPEL patched] [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 21 2017
+Tue Aug  1 23:17:21 2017 us=540527 library versions: OpenSSL 1.0.1e-fips 11 Feb 2013, LZO 2.03
+Tue Aug  1 23:17:21 2017 us=544479 WARNING: using --duplicate-cn and --client-config-dir together is probably not what you want
+Tue Aug  1 23:17:21 2017 us=544519 WARNING: --ifconfig-pool-persist will not work with --duplicate-cn
+Tue Aug  1 23:17:21 2017 us=555575 Diffie-Hellman initialized with 2048 bit key
+Tue Aug  1 23:17:21 2017 us=556465 Failed to extract curve from certificate (UNDEF), using secp384r1 instead.
+Tue Aug  1 23:17:21 2017 us=556495 ECDH curve secp384r1 added
+Tue Aug  1 23:17:21 2017 us=556735 Outgoing Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Aug  1 23:17:21 2017 us=556755 Incoming Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Aug  1 23:17:21 2017 us=556780 TLS-Auth MTU parms [ L:1624 D:1182 EF:68 EB:0 ET:0 EL:3 ]
+Tue Aug  1 23:17:21 2017 us=556971 ROUTE_GATEWAY 45.62.96.1/255.255.240.0 IFACE=eth0 HWADDR=aa:aa:00:08:d6:fa
+Tue Aug  1 23:17:21 2017 us=558315 TUN/TAP device tun0 opened
+Tue Aug  1 23:17:21 2017 us=558347 TUN/TAP TX queue length set to 100
+Tue Aug  1 23:17:21 2017 us=558369 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Tue Aug  1 23:17:21 2017 us=558387 /sbin/ip link set dev tun0 up mtu 1500
+Tue Aug  1 23:17:21 2017 us=561288 /sbin/ip addr add dev tun0 local 10.8.0.1 peer 10.8.0.2
+Tue Aug  1 23:17:21 2017 us=564249 /sbin/ip route add 10.10.1.0/24 via 10.8.0.2
+Tue Aug  1 23:17:21 2017 us=573407 /sbin/ip route add 10.8.0.0/24 via 10.8.0.2
+Tue Aug  1 23:17:21 2017 us=575272 Data Channel MTU parms [ L:1624 D:1450 EF:124 EB:406 ET:0 EL:3 ]
+Tue Aug  1 23:17:21 2017 us=575688 Could not determine IPv4/IPv6 protocol. Using AF_INET
+Tue Aug  1 23:17:21 2017 us=575733 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Tue Aug  1 23:17:21 2017 us=575774 Listening for incoming TCP connection on [AF_INET]45.62.97.54:1194
+Tue Aug  1 23:17:21 2017 us=575802 TCPv4_SERVER link local (bound): [AF_INET]45.62.97.54:1194
+Tue Aug  1 23:17:21 2017 us=575814 TCPv4_SERVER link remote: [AF_UNSPEC]
+Tue Aug  1 23:17:21 2017 us=575834 GID set to nobody
+Tue Aug  1 23:17:21 2017 us=575854 UID set to nobody
+Tue Aug  1 23:17:21 2017 us=575873 MULTI: multi_init called, r=256 v=256
+Tue Aug  1 23:17:21 2017 us=575919 IFCONFIG POOL: base=10.8.0.4 size=62, ipv6=0
+Tue Aug  1 23:17:21 2017 us=575935 IFCONFIG POOL LIST
+Tue Aug  1 23:17:21 2017 us=575956 MULTI: TCP INIT maxclients=10 maxevents=14
+Tue Aug  1 23:17:21 2017 us=575996 Initialization Sequence Completed
+Tue Aug  1 23:17:24 2017 us=870157 MULTI: multi_create_instance called
+Tue Aug  1 23:17:24 2017 us=870227 Re-using SSL/TLS context
+Tue Aug  1 23:17:24 2017 us=870254 LZO compression initializing
+Tue Aug  1 23:17:24 2017 us=870643 Control Channel MTU parms [ L:1624 D:1182 EF:68 EB:0 ET:0 EL:3 ]
+Tue Aug  1 23:17:24 2017 us=870676 Data Channel MTU parms [ L:1624 D:1450 EF:124 EB:406 ET:0 EL:3 ]
+Tue Aug  1 23:17:24 2017 us=870724 Local Options String (VER=V4): 'V4,dev-type tun,link-mtu 1560,tun-mtu 1500,proto TCPv4_SERVER,comp-lzo,keydir 0,cipher AES-256-CBC,auth SHA1,keysize 256,tls-auth,key-method 2,tls-server'
+Tue Aug  1 23:17:24 2017 us=870737 Expected Remote Options String (VER=V4): 'V4,dev-type tun,link-mtu 1560,tun-mtu 1500,proto TCPv4_CLIENT,comp-lzo,keydir 1,cipher AES-256-CBC,auth SHA1,keysize 256,tls-auth,key-method 2,tls-client'
+Tue Aug  1 23:17:24 2017 us=870782 TCP connection established with [AF_INET]124.127.118.179:60394
+Tue Aug  1 23:17:24 2017 us=870795 TCP_SERVER link local: (not bound)
+Tue Aug  1 23:17:24 2017 us=870805 TCP_SERVER link remote: [AF_INET]124.127.118.179:60394
+RTue Aug  1 23:17:25 2017 us=410523 124.127.118.179:60394 TLS: Initial packet from [AF_INET]124.127.118.179:60394, sid=96e1c8f3 7e7573b6
+WRRWRWRWRWRWRWWWRRRWRWRWRWRWRWTue Aug  1 23:17:27 2017 us=164727 124.127.118.179:60394 Connection reset, restarting [-1]
+Tue Aug  1 23:17:27 2017 us=164805 124.127.118.179:60394 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Tue Aug  1 23:17:27 2017 us=164974 TCP/UDP: Closing socket
+Tue Aug  1 23:17:31 2017 us=650504 MULTI: multi_create_instance called
+Tue Aug  1 23:17:31 2017 us=650612 Re-using SSL/TLS context
+Tue Aug  1 23:17:31 2017 us=650639 LZO compression initializing
+Tue Aug  1 23:17:31 2017 us=650786 Control Channel MTU parms [ L:1624 D:1182 EF:68 EB:0 ET:0 EL:3 ]
+Tue Aug  1 23:17:31 2017 us=650811 Data Channel MTU parms [ L:1624 D:1450 EF:124 EB:406 ET:0 EL:3 ]
+Tue Aug  1 23:17:31 2017 us=650847 Local Options String (VER=V4): 'V4,dev-type tun,link-mtu 1560,tun-mtu 1500,proto TCPv4_SERVER,comp-lzo,keydir 0,cipher AES-256-CBC,auth SHA1,keysize 256,tls-auth,key-method 2,tls-server'
+Tue Aug  1 23:17:31 2017 us=650858 Expected Remote Options String (VER=V4): 'V4,dev-type tun,link-mtu 1560,tun-mtu 1500,proto TCPv4_CLIENT,comp-lzo,keydir 1,cipher AES-256-CBC,auth SHA1,keysize 256,tls-auth,key-method 2,tls-client'
+Tue Aug  1 23:17:31 2017 us=650892 TCP connection established with [AF_INET]124.127.118.179:60414
+Tue Aug  1 23:17:31 2017 us=650905 TCP_SERVER link local: (not bound)
+Tue Aug  1 23:17:31 2017 us=650915 TCP_SERVER link remote: [AF_INET]124.127.118.179:60414
+RTue Aug  1 23:17:32 2017 us=223326 124.127.118.179:60414 TLS: Initial packet from [AF_INET]124.127.118.179:60414, sid=937bc5d3 cf0e1e2e
+WRRWRWRWRWRWRWWWRRRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRWRTue Aug  1 23:17:36 2017 us=613106 124.127.118.179:60414 VERIFY OK: depth=1, C=CN, ST=BeiJing, L=BeiJing, O=AoDun, OU=AoDunDianDqiang, CN=AoDun CA, name=EasyRSA, emailAddress=544571279@qq.com
+Tue Aug  1 23:17:36 2017 us=613408 124.127.118.179:60414 VERIFY OK: depth=0, C=CN, ST=BeiJing, L=BeiJing, O=AoDun, OU=AoDunDianDqiang, CN=client1, name=EasyRSA, emailAddress=544571279@qq.com
+WRWRWRWRWRWRWRWRTue Aug  1 23:17:37 2017 us=938157 124.127.118.179:60414 peer info: IV_VER=2.3.3
+Tue Aug  1 23:17:37 2017 us=938220 124.127.118.179:60414 peer info: IV_PLAT=win
+Tue Aug  1 23:17:37 2017 us=938363 124.127.118.179:60414 Data Channel Encrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Tue Aug  1 23:17:37 2017 us=938384 124.127.118.179:60414 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Aug  1 23:17:37 2017 us=938395 124.127.118.179:60414 Data Channel Decrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Tue Aug  1 23:17:37 2017 us=938407 124.127.118.179:60414 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+WRTue Aug  1 23:17:38 2017 us=510313 124.127.118.179:60414 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Tue Aug  1 23:17:38 2017 us=510393 124.127.118.179:60414 [client1] Peer Connection Initiated with [AF_INET]124.127.118.179:60414
+Tue Aug  1 23:17:38 2017 us=510475 client1/124.127.118.179:60414 OPTIONS IMPORT: reading client specific options from: ccd/client1
+Tue Aug  1 23:17:38 2017 us=510576 client1/124.127.118.179:60414 MULTI_sva: pool returned IPv4=10.8.0.6, IPv6=(Not enabled)
+Tue Aug  1 23:17:38 2017 us=510965 client1/124.127.118.179:60414 MULTI: Learn: 10.8.0.6 -> client1/124.127.118.179:60414
+Tue Aug  1 23:17:38 2017 us=510983 client1/124.127.118.179:60414 MULTI: primary virtual IP for client1/124.127.118.179:60414: 10.8.0.6
+Tue Aug  1 23:17:38 2017 us=510995 client1/124.127.118.179:60414 MULTI: internal route 10.10.1.0/24 -> client1/124.127.118.179:60414
+Tue Aug  1 23:17:38 2017 us=511007 client1/124.127.118.179:60414 MULTI: Learn: 10.10.1.0/24 -> client1/124.127.118.179:60414
+RTue Aug  1 23:17:40 2017 us=862921 client1/124.127.118.179:60414 PUSH: Received control message: 'PUSH_REQUEST'
+Tue Aug  1 23:17:40 2017 us=862984 client1/124.127.118.179:60414 SENT CONTROL [client1]: 'PUSH_REPLY,route 10.0.0.0 255.0.0.0,redirect-gateway,dhcp-option DNS 114.114.114.114,dhcp-option DNS 8.8.4.4,route 10.8.0.0 255.255.255.0,topology net30,ping 10,ping-restart 120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+WWRRRRRRRTue Aug  1 23:17:42 2017 us=93386 client1/124.127.118.179:60414 MULTI: bad source address from client [::], packet dropped
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRwRRRRRRRRrWRRRRRRwRRrWRRRRRRRwrWRRRRRRwRRRrWRRRRRRRwrWRRwRwRRrWrWRwRwrWrWrWrWrWRwrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRRRRrWrWrWrWrWrWRRRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrWWWWWWrWWWWWWWWWWWWWWWWRwRRRRRRRRRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRRRRRRwRwRRRRwRwRwRRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwrWrWRwrWRwRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRRrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRRRwrWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwrWRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwRwrWRwRwRwRwrWRwrWrWrWrWRwRwrWRwRwRwRRrWRwRwrWrWRwrWRrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWRwrWRwrWRwRwRwRwRwRwRwRwRwrWRwRRRwrWRwRwRwrWRwRwrWrWrWrWRwRwRwrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRRrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrWWrrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwrWrWrWrWrWrWrWRwRwRrWRwRwRwRwRwRwRwRwrWRwRRwrWrWrWrWrWrWrWrWRwrWrWRwRwrWRwRwRwRwRwrWrWrWrWrWrWrWRwrWRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrrWWRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwrWrWRwRwRwrWrWrWrWrWrWRwrWRwrWrWRwrWrWRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWRwrWRwRwRRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWrWrWrWrWrWrWrWRwRwRwRwrWrWRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwrWrWRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:18:05 2017 us=689714 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=689777 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=689792 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=689804 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=690892 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=690922 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=694911 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=695595 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:05 2017 us=695630 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRrWRwRwrWrWRwRwrWrWrWRwRwrWRwrWrWrWRwRwRwrWrWrWRwRwRwRwrWrWrWrWRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrWWWWRwRwRwRwrWrWrWRwrWRRRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWRwRwrWRwRwRwRwrWRwRwRwRwRwrWRwRwrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWRwRwrWRwRwRwRwRwrWrWrWRwrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrrrrWWWWRwRwRwRwRwRwrWRwRwrWRwRwrWrWrWRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWrWWWWWWRwRwRwRwRwRwRwRwRwrWRwrWrWrWrrrrrrrrrrWWWWrrrWWWWWWWWWRwRwRwRRwRwRwRwRwRRwRwrrrWrrWWWWRwRwRwRwrWrWrWrWrWrrrrrrWWrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWRrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRrWrWrWrWrWrWrWrWRwRwRwRwRwrWRwRwrWrWrWrWrWrWrWRwrWRwRwRwRwrWrWRwRwrWrWrWrWrWRwRwrWRwRwRwrWrWrWRwrWRwRwRwrWRwrWRwRwRwrWrWrWRwrWrWrWrWrWrWrWrWrWRwRwRwrWRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRRrWrWRwRwrWRwRwRwRwRwrWrWrWRwRwrWrWrWrWRwRwRwrWrWrWRwRwRwRwRwRwrWrWRwrWrWRwRwRwRwrWrWrWRwRwrWRwrWrWrWRwRwRwRwrWrWRwRwRwRwrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwRRrWrWrWrWrrrrrrrrrrrrrrrWWWWWWrWrrrrrrrrrrrrrrWWWWWWWWWWWrWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrWWWWWWWWWWWRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWrrWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRwRwRwRwRwRRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrWWWWRwrWRwrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrWrrrrrWWWWrrrrrrrrrrrWWWrrrrrrrWrrrrrWrrrrrrrrrrrWWWWrrrrrWrWWWrrrrrrrrrrrrrrrWWWWrrrWWWWWWWWWWWWWrrWWWWWWrWWWWWWWWWWWWWWWWWWWWrrWWWWWWWWWWWrrWWWrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRRwRwRRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWrrWWWWWrrWWWWrWWWWWWWWRwRwRwRwRwRwRRwRwRwRwRwRwRwRwRwRwRRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWrrrrrWWWWWWrrWWWWWWWWWWWWWWWrWWWWWWWWWrrrWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrWWWWWWWWWWWrrrrrWWWWWWWWWRwRwRwRwRwRwRRwRRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrWWWWWWWWWWWWrWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwrWRwRwRwRwRwRwrWrWRwrWrWRwRwRwrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWrrrWWWRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWrWWWWWWrrrWWWWWWrrrrrrrrrrrrrWWWWWWWWWWrWWWWWWWWWWWWWWWrWWWrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRRwrWRwRRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrWrWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwrWRwRwRwRwRwRwRrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWrWWWWWWWWWWWWWrrrWWWWrrWWWWWWWWWWWWWWWRRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrrrrrrrrWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWrrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWrWWWWWWWWWrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrWWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWrrrWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRRwRwRwRwRRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWrrrWWWWWWWWWrrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrrrrrrTue Aug  1 23:18:42 2017 us=36069 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:42 2017 us=36152 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:42 2017 us=36182 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:42 2017 us=59828 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:18:42 2017 us=59910 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWWWWWWrrrrrrWWWWWWWWWWWWWWWWWWWWWrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRRwRRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrWWWWrrWWWWWWWWWWrWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWrrrWrrrrrWrWWWWWrrrWWWWWWWWWrrrrrWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWrrWWWWrrrrrrWWrrrWWWWWWWWWWWWWWWrrrrWWrWWWWWWWWWWWWWrrrrrWWWWWWrrrrWWWWWWRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrWWWrWWWWWWWWrWrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrWWWWRwRwrWrWrWrrrrrrWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrrWWWWWWWWWrrrrrrWWWWrrrrWWWWWWWWWWWWWWWrrrrrrrrrrrrrrrWWWWWWWWWWWWWWrWWWWWrrrrWWWrWWWrWWWWWWWrrWWWWWWWrWWWWrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRRwRwRRwRwRRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWrWWWWWWWWWWWWWWWWrrrWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrrrrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWrrrrWWWWrrrrWWWWWWrrWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRRRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWrrrrrrWWWWWWWWrrrWWWWWWWWWWWWWWWWWWWrrrrrrrrrrWWWrrWWWWWWWWWrrrrrrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWrrrrWWWWrrrWWWrWWWrWWWWWWrrrrWWWWWrrrWWWrWWWrrWWWrWWWWrWWWWWrrrrrWWWrrrrrrrWWWWWWWWWWWrrWWWrrrWWWrrWWWRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRRwRwrWrWrWrWrWrrrrrrrrrrrrrWWWWrrrrWrrWWWWWWrWWWWWWWWWRwRRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRRwrWRwRwRwRwRwRwrWRRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrWWWWWWWWWWRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRRwRwRwRwRwRRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWrrrrrrrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrWWWWWWWWWWWWWWrWRwRwRwRwRwRwRwRwRwRwRwrrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRRRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWRwRwRwRwRwrWRwrWrWrWrrrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrWWWWWWWWrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWRwRwrWrWrWrWrWrWrrrrrrrWWWWWWWRwrWrrrrrrWWWWWWRwRwRwRwrrrrrrrrWWWWWWrrrrrrWWWWWWrrrrrrrWWWWWWrrrWrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRRwRwRwRwRRwRwrWrWrrrrrrrrrrrrrrrrrrWrrrrrrrrrrrrWWWWWWWWWWWWWWWWrrrrrrrrrWWWWWWWrrrWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrrrrrrrrrrrWrrrrrrrrrrrrWWWWWWWWrWWrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrWWWrrrrrrrrrrrrWWrWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrWWWrrrrrrrrrrrrrrrrrrrrrrrrrrWrWWWWWWWWWWrWrrrrrrrrWrrrrrrrrWWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrrrWWWrWWWWWWWWWWWWWWWWrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrWWWWWWWWWWWWWWWWWWWWrrrrrrrrrrrrrrrrrWWWrWWWWWWWWWrrrrrrrrrrrrrrrrrrrWWWrWWWWWWrrrrWrrrrrrWWWWWWWWWWWWWWWrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrWWWWWWWWWrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrrrrrrrrrrrrrrrWWWWWWrrrrWWWWrrrrrrrrrrrrrWWWWrrrrrWWWWrrrrrrrrrrrrrrWWWWrrrrWWWWrWWWWrWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrWWWWWWWrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwrWRwRwrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwrWrWRwRwrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrWWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:19:14 2017 us=936039 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=936255 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=941682 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=943945 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=947186 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=953034 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=953149 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=961109 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=961605 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=964081 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=970136 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=970352 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=975914 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=979166 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=981183 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=987439 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=988130 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=994021 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:14 2017 us=998247 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=4269 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=9662 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=15603 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=21129 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=27225 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=32734 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=38354 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=44635 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=51118 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=56079 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=61147 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=67313 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=72654 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=79145 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=84112 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=89992 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=95960 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=101377 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=107020 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=112670 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=118461 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=124203 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=129959 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=135415 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=141583 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:15 2017 us=146911 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWrWWrWrWWWWWWWWWWWrWWWWrWWrWWWWWWrWWrWWWWWWWWWWWWWrWWWrrrWWWWWWWWWWWWWWWrrWWWWrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrWWWWWWWWWrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrWWWWWWWWRwRwRwRwRwRwRwrWrWRwRwRwRwRwrWRwrWrWrWRwRwRwrWrWRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrWrWWWWWrrrrrrrrrrrrrrrWWrrrrrrrrrrrrrrrrrWrrWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWrWWWWrWWWWWWWWWWWWWWWWWWWWWWWWrWrrrWWWWWWrWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrrrrrWrrrrrrrrrrrrrrrrrrrrrWWWrrrrrrrrWrrrrrrrrrrrrrrWrrrrrrrrrrrrrWWWWrrrrrrrrWrrrrrrrWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWrWWWrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWrrWWWWWWRwRwRwRwRwRwRwrWrWRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwrWrWrWrWrWrWrWrWRwrWRwRwRwRwRwRwrWrWrWrWrWRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwrWRwRwRwRwrWrWrWrWRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWRwRwrWrWRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwrWRwrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWRwRwrrrrrrWWWWWWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwrWrWrrrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwrWrWrWRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrWWWWWWrrrrrrrWWrWWWWrrrrrrrrWWWWWWrrrrrrrrWWWrrrrrrrrrrrrrrrWWrrrrrrrrrrWWWWWWWWrrrrrrrrrrrrrrrrrWrrrrrrrrrrTue Aug  1 23:19:39 2017 us=564942 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:39 2017 us=589836 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:39 2017 us=613954 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:39 2017 us=638780 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:39 2017 us=663947 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:39 2017 us=687069 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWrrWrrrrrrWrTue Aug  1 23:19:39 2017 us=932790 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:40 2017 us=5366 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWrWrWrWWWWWWWWrrWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrWrrrWWWWWWWrrrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWrrrrrrrWWWWWWrrrrrrrrWWWWWWWWWWWWWWWWWWrWWWWWWWrrrWWWWWWWWWWWWWrrWWrrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrWWWWWWrrWWWWWWWWrrrrWWrrrWWWWrrWWWrrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrWWWWWWWWrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrWWWWWWWWWWWWWWrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrrrrrrrrrrWrWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwrWRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrrWWWWWWWWWWWWWWrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwrWrWRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwrWRwrWrrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwrRwrrrrrrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWrWWWWWWWWWrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWrrrWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWrrrrrrrrrrrrrrTue Aug  1 23:19:49 2017 us=967588 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:49 2017 us=968439 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:49 2017 us=969687 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:49 2017 us=975438 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWrrrrrTue Aug  1 23:19:50 2017 us=29780 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=36140 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=45281 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=62369 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=62746 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=66904 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=67518 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=69606 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=80476 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:50 2017 us=82315 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWrrrrrrrWWWWWrrrWWWWWWWWWWWWWWWrrrWWWrrrrrrrrWWWWWWWWWrWWWWWWrrrrrrrrrrrWWWWWrrrrrrWWWWWWWWWWrrWWWWWWWWWWrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:19:52 2017 us=40582 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=40774 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=40796 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=40810 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=40822 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=40834 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=42469 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=42873 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=43619 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=43678 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44178 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44623 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44646 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44660 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44673 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44685 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44698 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=44973 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=45680 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46322 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46367 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46384 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46397 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46424 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46437 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46450 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=46462 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=47144 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=47174 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=47188 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=47200 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=47213 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=48113 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=48266 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=48537 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=48767 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=48793 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=48806 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=49763 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=50111 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=50523 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=50548 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=50562 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=50574 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrrWWWWWWWWrrrrrrrWWWWrrrrrrrrrrrrrrrrWWWWWrrrrrWrrrrrrrrrrrTue Aug  1 23:19:52 2017 us=319284 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=321261 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=326591 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=334610 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=334680 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=340373 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=344230 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=344441 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWrrWWWWWWWWWWWrrrrrrrrrWWrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWrrrrWWWWWWWWrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrWWrrrrrWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrWrrrTue Aug  1 23:19:52 2017 us=776559 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=777282 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=778047 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=778123 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=778285 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780259 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780286 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780300 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780393 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780419 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780466 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780483 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=780495 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=781072 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=781112 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=781126 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=781930 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=781956 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=781972 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=781995 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=788419 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=789599 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=790504 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=790798 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=791379 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=791434 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=791451 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=791687 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=791711 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=791723 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:52 2017 us=797301 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWWWWWWWWWrrrrrrrrrrrrrWWWrrrrrrrrWWWWWWrrrWWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrrrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwrrrrrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:19:53 2017 us=745351 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:53 2017 us=747642 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:53 2017 us=747682 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:53 2017 us=747697 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:53 2017 us=747710 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWrrWWWWWWWrrrrrrrWWWWWWWWWWWWWWWWWWWWWWrrWWWWWWWWrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWrrrWWWWWWWWWWWWWrrrrWWWWWWWWrWrrrrrrrrrrrrrrWWWWWWWWWWWWWWrrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:19:55 2017 us=460250 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:55 2017 us=460296 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:55 2017 us=460310 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:19:55 2017 us=460323 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWrrrrrWrrrrWWWWWWWWrrWWWWWWrrrrrrWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrrWWWWWWWWWWWrrrrrWrrrrrrrrrrWWWWWrrrrWWWWWWWWWWrrWWWWWWrrrrrrrrrWWrrrrrrrrWWWrrWWWWWWrrWWWWrrWWWWWWWWrrrrrrrrrrrWrWWrWWrrrrrrrWWWWWWWWrrrrrWWWWrrrrrrrWWWWWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWrWWWWWrrWWWWWWWWWWWWrrrrrrrrrrrrrrrrrWWWWWrrrrWWWWWWWWWWrrrrrrWWWWWWrWrrrrrrrrrrrrWWWWWWWrrrWWWWWWWWWWWWWWWWWWWWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWrWWWWWWrWWrWWWWWWWrrrrrrrrrrrrrrrWWWWWrWWWWWrrrrrrrrrrWWWWWWrWWWWWWWWWWWWWWrWrrrrrrrrrWWWWWWWWWWWWrrrrrrrrrrrrrWWWWWWWrWWWrrrrrrrrrrrrrrrrrrrrrrWWWWWWWrrrrWWWWWWWWWrWWWrrrrrrrrrrrrrrrWWWWrrrrWrWrWWWWWWWrrrrrrrrrrWWWWWWrrrrrrrrrrWWWWrrrrrrrrWWWWWWWrrrrrWrrrrrrrrrrWWWWrrrWWWWWrrWWWWWWWWrrWWWrrrrrrrrrrrrrWWWWWWrrrWWWWWWWWWWWWWrWWWWWrrrrrrrrrrrrrrrrrWWWWWWWrrrrrWWWWWWrrrrWWWWWrWWWWWWWWrrWWWWrrrrrWWWWrrrrrrrrWWWWWrrrWWWWWWWrrWWWWWWWWWWWWWWWrWWWWWrrrrrWWrrrrrrrrrWWWWWrrWWWWWWrrrrWWWWWWWWWWWWWWWWWWWWrrrrrrWWWrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:20:10 2017 us=889864 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=889912 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=890245 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=891223 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=891262 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=891287 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=891668 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=891694 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892237 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892277 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892294 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892307 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892325 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892347 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892361 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892373 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892625 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892796 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892819 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892833 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=892856 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=893504 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=893534 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=893548 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=893560 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=894382 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=894413 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=894427 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=894440 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=894468 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=895235 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=895272 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=895299 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=895541 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=895565 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=895579 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=896823 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=896868 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=896893 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:10 2017 us=896907 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWrrrrrrrWWWWWrWWWWWrWWWWWWWWrrWWWWWWWWWWWWWWWWWWWWWrrrrrrrrWWWWWWWWWWWWWWWWWrrrrrWWWrWWWWWWWrrrWWWWWWWWWrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWrrWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrWrWWrrrrWWWWWWWWWrrrrWWWWrrWWWWWWrWWWWWWWWWWWWWWWWWWWrrrrrrWWWWWWWWWWWWWWWrrrrrrrrWWWWWWWWWWWWWWWrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:20:13 2017 us=917120 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=917206 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=917224 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=917275 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWrrWrrrrrWWWWWrWWWWrrrrrrrrrrrTue Aug  1 23:20:13 2017 us=921196 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=921225 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=922291 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=922330 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=922940 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=922967 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=923342 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=923377 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=923391 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=923758 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924236 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924258 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924271 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924282 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924294 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924306 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924337 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924353 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924382 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924859 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=924891 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=925464 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=926123 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=927229 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=927268 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=927284 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=928079 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=928124 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=928153 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=929914 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=932369 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=932426 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=932441 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=932472 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=932485 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WrTue Aug  1 23:20:13 2017 us=934272 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=935405 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=936039 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=938058 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=942189 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:13 2017 us=949044 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=9287 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=42338 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=87933 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=88655 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=88881 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=88977 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=89670 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=109104 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WrTue Aug  1 23:20:14 2017 us=206428 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=207078 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=207705 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=208161 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=208319 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=208350 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=209821 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:14 2017 us=246405 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWrrrrWrWrrrrrrrWWWWWWWWWWWWWWWWrrrWWWWWrrrrrrrrrrrrWWrrrrrrrrrrrrrrTue Aug  1 23:20:15 2017 us=9473 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=11424 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTue Aug  1 23:20:15 2017 us=604207 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=604267 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=604283 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=604296 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=604308 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=604320 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=605640 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=606026 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=606312 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=606390 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=606409 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=606572 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=607886 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=610807 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=611149 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=614256 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=614299 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=614315 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=614328 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=615645 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=615917 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=615941 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=615955 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=616153 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=616178 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=616191 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=616451 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=616473 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=617061 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=617106 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=617556 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=617580 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=617593 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=621149 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=621203 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=621535 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=622264 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=622293 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWrrrWWrrWrWrTue Aug  1 23:20:15 2017 us=625807 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=626637 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=627145 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WrTue Aug  1 23:20:15 2017 us=630142 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=630257 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=630370 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=632461 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWrrrrrrrrrrrrrTue Aug  1 23:20:15 2017 us=766082 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=779013 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=786931 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=799938 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:15 2017 us=808269 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWrWWWWWrWWWWWWWWrrrrrrrrrrrWWrrWWrrWWWrrrrrrWrWWWWWWrrWWrrrrrWWWWWWWrrrrrrrrrWWrrrrTue Aug  1 23:20:16 2017 us=504520 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:16 2017 us=504631 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWWWWWWWWWWWrrWWWWWWWrrrrWWWWWWWWrrrWWrrrrrrrrrrWWWWWWWWWWWWWWWWrrWWrrrrrrrWrrWWWWWWWWWWWWWWWWWWWWWWrrrrrrrrrWWWWWWWWWWWWWrWWWWWWWWrrrWWWWWWWWWWWWWrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrWWWrrrrrrrrrrrrrWWWWWrWWWWWrrrWrrrWWWWWWWWWWWWWWWWWWWWWWWrrrrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrWWWWWWWWrrrrrrrrrrWWWWrWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrWrrrrrrrrWWWWWWrrrrrrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWrrrrrrrrrrrrrrWWWWWWWWWWWWWrrrrrrrrrWWWWWWWWWWWWWWWWrrrrWWWWWWWWrWWWWWWrrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrrrrrrrrrrrrrrWWWWWWrrrrrrrrrrrrrrrrrrWWWWWWWWWWrrrrrWWWWWWrrrWWWWWWWWrrrrrrWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWrrWWWWWWWWWWWWWrrrWWrrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrWWrrWWWWWWWWWWWWWWWrWWWWWWWWrWWWWrrrWWWWWrrWWrWWWWrrrrWWWWWWrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrrrrrrrrrrrrrrrrrrrWWWWWWrrrrrrrrrrrrrrrrrWWWWrrrrrrrrrrrrrrrrrWWWWWWrrrrrrrrrrTue Aug  1 23:20:27 2017 us=630609 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=641360 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=641856 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=660444 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=668254 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=679752 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=696004 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=698519 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWrrrrrTue Aug  1 23:20:27 2017 us=859510 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:20:27 2017 us=885780 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWWWWrrrWWWWrWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWrrWWWWWWWWWrWWWWrWWWWWWrWWWWrrrWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwrWrrrWWWRwRwRwRwRwrWrWRwRwrWRwRwRwRwRwRwRwrWRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWrWrWrWrWRwRwRwRwrWrWrWRwrWRwrWrWrWRwrWRwrWrWrWRwRwRwrWrWrWrWrWRwRwrWRwRwrWrWrWrWRwrWrWrWRwRwrWrWrWrWrWrWrWrWrrWWRwRwrWrrWWRwrWrrrWrrWWWrrrrWWrrWWrrWWWWrrrrrrrWrrrWWWWWrrWWrrrrrrWrrWWWWWrrrWWWrrrrrrWWWrrWWWWWWrrrrrrrrWWrrWWWWWrrrWWWWWrrrrrrWrrrWWWWWWWWWrrWrrrrrWWWrrWWWrrrWWWWWWWWrrrrrrrrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwrWRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrrrrrrrrrrrrrrrWWWWWWrWWWWWWWWWWRwRwRwRwRwrWrWRwRwrWrWrWrWrWrWRwrWrWrrrrrWrrrrrrrrWrrrrrrrrrrrrrrrrrrrrrrrrrWrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwrWRwrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrWWWWWWWWWWRwRwRwRwRwrWRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrWrWWWrrrrrrrrrWrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrWWWWWrWWWrrrrrrrrrrrrrrrrrrWWWWWWrrWWWrWWWWWWWWrWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrWWWWWWrrrWWrrrrWWrrrrrrrrrrrWWWWWWWWrrrrrWrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWRwRwRwRwRwrWRwrWrWrWRwrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWRwRwrWRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwrWRwRwRwRwrWrWrWRwrWrWrWRwRwrWrWRwRwRwrWrWrWrWrWRwRwRwrWrWRwrWrWrWrWRwRwrWRwrWRwRwrWRwRwRwrWrWRwRwrWrWRwRwRwrWrWRwrWRwRwrWrWrWrWrWRwRwRwRwrWRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWRwRwrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWRwrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwrWrWrWRwRwRwrWRwrWrWrWrWrWrWrWrWRwRwRwrWRwRwRwrWrWRwrWrWRwrWRwRwRwRwRwrWRwRwrWrWrWRwrWrWrWrWrWrWRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWRwRwRwRwrWRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWRwRwRwRwRwRwRwRwRwrWRwRwRwrWrWrWrWrWrWRwrWrWrWRwrWrWrWrWrWrWrWrWrWrWRwRwRwrWRwRwRwRwrWrWrWrWrWrWRwrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrrrrrrrrrrrrWWWWWWWWWWWrrrWWWrWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrrrrrrrrrWWWWWrWWWWWRwRwRwRwRwRwRwrWRwRwRwRwRwrWRwRwRwrWrWrWrWrrrrrrrrWWWWWWWWRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWRwrWrWrWRwRwrWrWRwRwRwRwRwRwrWRwrWrWRwRwrWrWrWrWRwRwRwRwRwrWrWrWrWRwRwRwRwrWRwRwrWrWrWRwrWrWrWrWrWRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwrWrWRwRwrWrWrWrWRwrWrWRwRwrWrWRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwrWRwRwRwRwRwRwRwrWrWRwRwRwRwrWRwRwRwRwrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWRwrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWRwRwRwRwRwrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrWWWrrWWWWWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrrrrrWWWWWRwRwrWRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwrWrWrWRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWRwRwRwrWrWRwRwRwRwrWRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwrWRwrWRwRwRwRwRwRwRwrWrWrWrWRwRwRwrWrWrWrWRwrWRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwrWrWRwRwRwRwRwRwRwRwRwRwrWRwRwrWrWrWrWrWrWRwRwrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwrWrWrWRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwrWrWrWRwrWRwRwrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWRwRwRwrWRwRwRwrWRwRwRwrWrWrWRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWRwrWrWrWRwrWRwRwRwRwRwRwRwRwrWRwRwRwrWrWrWRwrWRwRwrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWRwRwRwRwrWrWRwRwrWRwRwRwRwRwRwRwrWrWrWrWRwrWrWRwRwRwRwRwRwRwrWrWrWrWRwrWrWrWRwRwRwrWRwrWRwRwRwRwRwRwrWrWrWRwRwRwRwrWRwrWRwrWRwrWrWrWRwrWRwrWRwrWRwrWrWRwRwrWrWRwRwRwrWrWRwRwRwRwrWrWRwrWrWRwRwRwrWrWRwrWrWrWrWRwrWRwRwrWrWRwRwRwRwrWRwrWRwrWrWRwrWRwRwrWrWrWRwrWrWRwrWRwrWRwrWrWRwrWrWRwrWRwrWRwrWRwrWRwrWRwRwrWrWrWrWrWrWRwrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWRwRwRwrWRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWRwRwrWrWrWRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWRwrWrWrWRwrWrWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwrWrWRwRwrWrWRwrWRwRwRwRwrWrWrWrWRwRwRwrWrWrWRwRwrWrWRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWRwrWRwRwRwRwrWRwrWRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWrWRwrWRwRwrWrWrWrWRwrWRwrWRwrWRwrWRwrWrWRwrWrWRwrWrWRwrWRwrWrWRwRwrWrWRwRwRwrWRwRrWRwRRrWrWRwRwRwRwRwRwRwrWrWrWrWRwrWrWRwrWrWRwRwRwRwRwRwRwrWRwRwRwRwrWrWrWRwRwrWRwRwRwRwRwrWrWrWRwRwrWrWrWrWrWrWRwrWRwRwRwRwRwRwRwRwrWRwRwRwRwrWrWRwrWRwrWRwrWrWRwrWRwrWRwRwrWRwrWRwrWrWRwrWRwrWRwrWRwrWRwRwrWRwrWrWrWRwrWRwrWRwrWRwRwRwrWrWRwRwRwrWrWRwrWrWrWRwRwRwRwRwrWrWrWrWrWRwRwrWrWRwRwRwrWRwRwrWrWrWRwrWrWRwrWRwRwRwRwRwrWrWrWrWrWRwRwrWrWrWRwrWRwRwrWRwRwrWrWrWRwrWRwrWRwRwrWrWRwRwRwrWrWRwrWrWRwrWRwrWrWRwRwrWrWrWRwRwrWRwrWRwRwRwRwrWRwrWrWrWrWrWRwRwRwRwRwRwrWrWrWRwrWRwrWrWRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwrWrWRwRwrWrWRwRwRwrWRwRwrWrWRwRwRwRwrWRwRwRwRwRwRwRwrWrWRwrWRwRwrWRwrWrWRwRwrWrWRwrWRwrWRwrWRwRwRwRwRwRwRwRwRwrWRwRwRwrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWRwRwrWrWRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwrWrWrWrWRwrWRwrWRwrWRwrWRwrWrWrWRwrWRwrWRwRwRwrWrWrWRwrWRwrWRwRwRwrWrWRwrWrWrWrWrWRwrWRwRwrWrWRwRwRwRwRwrWrWRwRwRwrWrWrWrWrWRwrWrWRwRwrWrWrWRwRwRwrWrWRwRwrWRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwrWrWrWrWRwRwrWrWRwRwrWRwrWRwrWRwRwRwRwRwRwRwRwRwrWRwrWrWrWrWRwrWrWRwRwrWRwrWRwrWRwrWrWrWRwrWrWRwrWRwRwrWrWRwRwRwRwrWRwRwrWrWRwrWrWRwrWRwRwrWrWrWRwrWrWRwrWrWrWRwrWRwrWrWrWrWRwRwRwrWrWRwRwrWRwrWrWrWrWrWRwrWrWrWRwrWrWRwRwRwrWrWrWrWRwRwrWRwrWRwRwRwrWrWRwRwrWrWrWRwrWrWRwRwRwRwrWRwRwRwrWRwRwRwrWrWRwRwRwRwrWrWrWRwRwRwrWrWrWrWrWrWrWrWRwrWRwRwrWRwRwRwRwRwrWrWRwRwRwrWrWrWrWRwRwrWrWrWrWrWrWRwrWrWRwRwRwrWrWrWRwRwRwRwRwrWrWrWRwrWrWrWrWRwRwRwrWrWrWrWrWrWrWrWRwRwrWrWrWrWRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwrWrWRwRwRwrWrWrWrWRwRwrWrWrWRwrWRwRwRwRwRwRwRwRwRwRwrWrWrWRwrWrWrWRwRwRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWRwRwrWRwrWRwRwrWRwrWRwrWrWRwRwRwRwRwRwRwRwrWrWRwrWRwRwrWrWrWRwRwRwrWRwrWrWRwRwrWRwRwRwRwRwRwRwRwRwrWRwrWrWRwrWrWRwrWRwrWRwrWrWRwrWRwRwRwrWrWrWrWRwrWRwrWRwrWrWRwrWrWRwrWRwrWRwRwrWrWRwrWrWRwRwrWRwrWRwRwrWRwrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwrWrWRwrWRwrWrWRwRwRwRwRwRwRwRwRwrWrWRwrWRwrWRwrWrWRwrWRwrWrWrWRwrWrWRwrWRwRwRwrWRwrWrWRwrWrWRwrWRwRwrWrWrWrWRwrWRwrWRwRwrWRwrWrWrWRwrWRwrWrWRwrWRwRwRwRwrWrWrWRwrWrWRwrWRwrWRwRwrWrWrWRwRwRwrWrWrWrWRwrWRwRwrWrWrWRwRwrWRwrWRwrWRwRwRwRwRwrWrWrWrWrWrWRwrWRwrWRwrWrWRwRwrWRwrWrWRwrWRwRwrWrWrWRwRwrWrWRwRwrWRwrWRwRwRwrWrWRwRwRwRwrWRwRwrWRwrWRwRwrWrWrWrWrWrWrWrWrWrWrWRwRwrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwrWRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwrWrWrWRwRwrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWRwrWrWrWrWRwRwRwrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWRwRwrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWRwrWrWrWrWRwRwrWrWrWrWRwRwRwRwrWrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwrWRwRwRwRwRwrWrWrWRwrWRwrWrWRwRwRwRwrWrWrWRwrWRwrWrWRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwrWRwrWrWRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWRwRwrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWRwrWRwRwrWrWrWRwRwRwRwRwrWRwrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWRwRwRwrWrWrWrWRwrWRwRwRwrWrWrWrWRwrWRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwrWRwRwrWRwrWRwRwRwRwRwrWrWRwRwrWrWRwrWRwRwrWrWRwRwrWrWrWRwrWrWRwrWRwrWRwRwrWRwRwrWrWRwrWRwrWrWrWRwRwRwrWrWRwrWRwrWRwRwRwRwRwrWrWrWRwrWrWrWRwrWrWRwRwRwrWrWRwRwRwRwRwRwRwRwRwrWRwRwrWRwRwRwrWrWRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWRwRwRwRwRwRwRwRwRwrWRwRwrWRwrWrWRwRwRwRwRwrWrWrWrWrWrWRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrWRwRwrWrWRwRwRwrWrWRwrWRwRwRwRwRwRwRwRwRwrWrWRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWRwRwrWrWrWRwRwrWRwRwRwRwRwrWrWrWRwrWrWRwRwrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWRwRwrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWRwRwRwRwRwrWrWrWRwrWrWRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwrWrWrWrWRwrWrWrWRwRwRwRwRwRwRwrWRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwrWRwrWrWrWRwRwRwRwRwRwRwrWRwRwRwrWRwRwrWrWrWrWrWRwRwrWrWrWrWRwrWrWRwRwRwRwrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWRwRwRwrWrWrWrWRwRwRwrWRwRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrrWWRwRwRwRwRwRwRwRwrWRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwrWrWrWRwRwRwrWrWRwrWRwRwRwRwrWRwrWRwRwRwRwRwRwRwrWrWrWrWRwRwRwrWrWrWrWrWRwrWRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwrWRwRwRwRwrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWRwRwRwRwrWRwrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWRwrWrWRwRwRwRwRwRwrWRwRwrWrWrWrWrWrWrWrWrWrWrWRwrWrWRwRwrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWrrWWWWWWrrrrrrrrrWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWrWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWrrrrrrrrWWWWWWWWrrrrrrrrrWWWWWWWWrrWWWWWWWWrWWWWWWWWWWWWWWWWWrrrrrrrrrrWWWWWWWWWWWWrrrWWWWWWWWWWWWWWWWrWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWrWWWWWrWWrWWrrrWWWWWWWWWWWWWrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWrWWWrWWWrWrWWWWWWWrWWWWWWWWWrWWWWWWWWWWWWWWWWWWrrrrrrrrrrrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwrWrrrrrrrrWWWWWWWWRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrWWWWWWWWrWWWWWWWWWrrWWWWWWWWrrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWrWrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwrWrWrWrWrWrWrWRwrWRwrWRwRwRwRwRwRwrWrWrWrWrWRwRwRwrWRwRwRwRwRwRwrWrWrWrWrWrWRwrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWRwRwRwRwRwRwRwRwrWrWRwRwrWRwRwrWrWRwrWRwRwrWrWRwRwRwrWrWrWRwRwRwRwRwrWrWrWRwRwrWrWRwRwrWRwRwRwRwRwRwrWrWrWrWrWrWRwrWRwRwRwRwrWrWrWRwrWRwrWRwRwRwRwrWrWrWrWrWRwrWRwRwRwRwRwrWrWrWrWrWRwrWRwRwRwRwrWRwrWrWrWRwRwRwrWrWRwRwrWrWRwRwrWrWRwRwrWRwrWRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwrWrWrWrWRwRwrWrWRwrWrWRwrWrWrWRwRwRwRwRwRwRwRwRwrWrWRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWRwRwrWrWRwRwrWrWrWrWRwRwRwrWrWrWRwrWrWRwrWrWRwRwRwRwrWrWRwrWrWRwRwRwRwrWRwrWrWRwRwRwRwrWRwrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWRwrWrWRwrWrWrWrWRwRwRwRwrWrWRwRwrWrWrWRwrWRwRwrWrWRwrWrWRwrWrWRwRwRwRwrWrWrWRwrWrWrWRwrWRwrWrWRwrWrWrWRwRwRwrWrWrWrWRwRwRwrWrWrWrWrWRwRwrWrWrWRwrWrWrWRwrWrWrWrWrWRwrWRwrWrWRwrWrWrWrWRwrWrWrWRwrWRwrWrWRwrWrWrWRwRwRwrWRwrWrWRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWRwrWrWrWrWrWRwRwrWrWrWRwrWrWRwrWrWrWRwrWrWRwRwrWrWrWRwRwRwRwRwrWrWrWrWrWRwrWrWRwRwRwrWRwRwrWrWrWRwrWrWrWrWRwrWrWRwrWrWrWRwrWrWrWRwRwrWrWrWRwrWrWRwrWrWRwrWrWrWrWRwRwRwRwrWrWrWRwrWrWRwrWrWRwrWrWRwRwrWrWrWRwrWrWRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWrWrWrWrWRwrWrWRwRwrWrWrWrWrWrWRwRwRwrWrWrWrWrWRwrWrWRwrWrWRwrWrWrWRwRwRwrWrWrWrWrWRwRwrWrWrWRwrWrWRwrWrWRwrWrWRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWRwrWrWrWrWRwrWrWRwRwrWrWRwrWrWRwRwrWrWrWrWrWRwrWrWrWRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWRwrWrWRwRwrWrWrWrWrWRwRwRwrWrWrWrWrWrWrWRwrWrWRwrWrWRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwrWrWrWrWRwRwrWrWrWrWRwRwRwRwRwrWRwrWrWRwrWrWrWrWrWRwRwRwRwrWrWrWRwrWrWrWrWrWrWrWRwRwrWrWrWRwRwrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWRwrWrWrWrWRwRwrWRwrWrWRwrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWRwrWrWRwrWRwRwrWrWrWRwrWRwrWrWrWRwrWrWRwrWrWrWrWRwRwrWRwRwrWRwrWrWrWrWRwRwRwRwrWrWrWRwRwRwrWrWRwRwrWrWrWrWrWRwRwRwRwRwrWrWrWrWRwrWrWrWRwRwrWrWrWrWrWRwRwRwrWrWRwrWRwRwRwrWrWrWrWRwrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwrWrWrWRwrWrWrWRwrWrWrWRwRwrWrWrWRwrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWRwrWrWrWRwrWrWrWRwrWrWrWRwRwrWrWRwRwrWRwRwrWrWrWrWrWRwRwRwrWrWrWRwRwrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwrWrWrWRwrWrWrWrWrWRwRwrWrWrWrWrWrWrWrrrrrWWWWWRwRwRwRwrWrWrWrrrWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWrWrWrWRwrrrrWWWWRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwrWrWrWrWRwRwrWRwrWrWrWrWrWrWrrrrrrrrrrrrrrrrWWWWrWWrrWWrWWrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrrrrrrrrrrrrrrrrWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrWWWWWrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrWWrrrrrrrrrrrrrrrWWWWWWWWWWWWWrrrrrWWrrrrrrrrrrrrrrrrrWWWWWWWWrrrrrrrrWWrrrWWWWWWWWrWWrWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrrrrrrrrrrrrrrrrrrrrrWWWWWWrrrrrrrrrrWWWWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrWWWWWWWWrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrWWWWRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwrWrrrrrrrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrWWrrrWWWWWWRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrWWWWWrrrrrrWWWrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrWWWWWWWWRwRwRwrWrrrrWWWWRwRwRwRwrrrrrWrWWWWWRwRwRwRwRwRwrWrWrrWWRwrrWWRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwrWrWrrrrrWWWWWRwRwRwRwRwRwrWrWrWrWrrWWRwrrWWRwRwrrrrWWWWRwRwRwrWrWrWrWrrrrWWWWRwRwRwRwRwrWrWrWrWrWrWrWrWrrRwrrWWWWRwRwRwRwrWrWrWrWrWRwrWrWrrrrrrrrrWWWWWWWWWRwRwRwrWrWrrRwRwRwrrrrrrrWWWWWWWWWRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrrrrrrrrrWWWWWWWWWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrWWWrWWWWWWWWRwRwRwRwrWrWrWrWrWrWrrrWWWRwRwRwRwrWrrrrrWWWWWRwRwrWrWRwrWrWrWRwRwRwRwRwRwRwrWrrrWWWRwRwrrrrWWWWRwRwRwRwrWrWrWrWRwRwRwrWrWrWrWrrrrWWWWRwRwRwRwRwRwrWrWrWrWrWrrrWWrWWRwRwRwRwRwRwRwrWrrrrrrrWWWWWWWRwRwrrWWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrrrrrrWWWWWWRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwrWrrrrrWWWWWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrWrWWWWWWWWWWWWRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrRwRwWWWrrrrrrrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrWWWWWrrrrWWWWWWWWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrRwRwrrrWWWWWrWWWWWrWWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrWWWWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrWWrrrrrrrrrrrrWWWWWWWWWWWWWWWWWrrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrWWWWWWrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrWrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrWWrrrrrrrrrrrrrrrrrWWWWrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrWWWrrrrrrrrrrrrrrWWWWWWWWWWrrrrrrrrrrrrrWWWWWWWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWrrrrrrrrrrrrrrrrrrWWWWWrrWWWWWWWWrrWrrrrrrrrrrTue Aug  1 23:23:23 2017 us=434134 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:23:23 2017 us=434520 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:23:23 2017 us=480777 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:23:23 2017 us=480874 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:23:23 2017 us=480896 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+Tue Aug  1 23:23:23 2017 us=480910 client1/124.127.118.179:60414 MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+WWrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrWWWWWWWWWWWWWWWWWWWWrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrWWWWWWrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrWWrWrWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwrrrrrrrrWWWWWWWrrrWWWWRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwrWRwRwRwRwRwRwrWrWRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwrWRwRwRwRwrWrWrWrWrWRwRwrWrWrWrWrWrWrWRwRwrWrWRwRwRwrWrWrWrWRwRwRwrWrWrWRwRwrWrWrWrWrWrWrWRwRwrWrWrWrWrWRwrWrWRwrWrWRwRwRwrWrWrWrWrWrWRwRwrWrWrWrWRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWRwrWRwrWrWRwRwrWrWrWrWRwrWRwrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWRwrWrWrWrWrWRwrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWRwrWrWrWRwrWrWRwrWrWrWrWRwRwrWrWrWRwRwrWrWrWrWrWrWRwrWrWRwrWrWrWrWRwrWrWRwrWrWRwrWrWRwRwrWrWRwrWrWRwrWRwRwrWrWRwrWrWRwrWrWrWrWRwRwrWrWRwrWrWRwrWrWRwrWrWrWrWRwrWrWRwrWrWrWrWrWRwrWrWRwrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWRwrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwrWrWrWrWRwRwrWrWrrrrrWWWWWRwRwRwRwrWrWrWrWrWRwrWrWRwRwRwrWrrrWWWRwRwRwrWrWrWrWrWrWRwRwrWrWrWrrrrrrrrrrrWWrrWWWWWrrrrWWWWWWWWrrrrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWrrrrWWWWWWWrrrrWWWWWrrWWrrrrrWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrWrrrrWWWWWWWWWrrrrWWWWWWWWWWWWrrWWWWWWWWWrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrrrrrrrrrrrWWWWWrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrWWWWWrrrrrWWWWWWWWrrrrWWWWWWWrrrrWWWWWWrrWWWWWWWWrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrrrrWrrrWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWrrWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrWWWWWWWWWWWrWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrrrrrWWWWWRwRwRwRwRwRwRwrWrWrWRwRwrWrWrWrWrWrWrrrrrrrWWWWWWWRwRwRwRwrWrrrrrrrWWWWWWWRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWrWrWrrrrWWWWRwRwRwrWrWrWrWRwrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWRwRwRwrrrrWWWWRwRwRwrWrWRwrWrWRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWRwRwRwrWrWrWrWrWRwRwRwrWrWrWrWRwRwRwRwrWrWRwrWrWRwRwrWrWrWrWrWRwrWrWrrrrWrrWWWWWRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrrrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrrWWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrrrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWrWWWWWWWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrrrWWWRwRwRwrWrWrrrrrrWWWWWWRwRwrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWRwrWrWrWrWrWRwRwRwrWRwrWrWRwRwRwrWrWRwRwRwRwRwrWrWRwRwRwrWrWrWRwRwRwrWrWRwrWRwRwrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwrWrrrrrrrWWWWWWWRwRwRwRwRwrWrWrrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrWWRwrWrrrrrrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrrrrWWWWRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrWrrrrrrrrrWWWWWWWrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrWWWWWWWWrWWWWWWWWWWRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrWWWWWWWWrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrWWWWrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrWWrrrrrWWWWWWWRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrWWWWWWWWWWRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwrWrWrrWWRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwrWrrWWRwRwRwRwRwRwRwRwrWrrrrrrrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwrWrWrWrrrrrrWWWWrWWWRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrWWWWWWWWWWWRwRwRwrWRwRwRwRwRwRwRwrWrWrWrWrrrrrrrWrWWWWWWWRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrWWWRwRwRwRwRwrWrWrrrrrrWrWWWWWWRwRwRwrWrrrWWWRwRwrWrWrWrWrWRwRwRwRwRwrrrrrrrrWWWWWWrrrrrWWWWWWWRwRwRwRwrWrWrWrWrrWWRwRwRwRwRwrrrrrrrrrrWrrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwrWrrrrrrrWWWWWrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwrrrrrrrrWWWWrrrWWWWWWWRwRwRwRwRwRwRwrWrrrrrrrrrWWWWWWWWWRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrWWWWWWWWRwRwRwRwRwRwRwRwRwRwrrrWWWRwRwRwRwRwRwRwRwrrrrWrrrrWWWrrrrrrrrrrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrWWWWWWWWWWrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrWWrrWWWWWWWWWWWrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrWWrrrWWWWrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrrrWWWRwRwrWrrrrrrrrrrrrrrWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrWWWWrWWrWWWWWWWRwRwRwRwRwRwrWrWrrrrrrrrrrWrWWWWWWWWrWWWRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrWWWWWWWrrrWWWWWWWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWRwrWrWRwRwRwRwRwRwRwRwRwRwrWrWrWrrrWWWRwrrrrrrWWWWWWRwrWrWRwRwrrWrrrWWWWRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrWWWWWWWWWWWWRwRwRwRwRwRwrWrrrrrrrrWWWWWWWWRwRwRwrWrWrrrrWWWWRwRwRwRwrrrWWWRwRwRwrWrrrrrrWWWWWWRwRwRwrrrrrrWWrWWWWWRwRwRwRwrWrrrrWWrrWWWWRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwrWrWrrrrrrrrWWWWWWWWRwRwRwRwRwRwRwRwrWrWrWrrrrrWWWWWRwRwRwRwRwRwRwRwrrrrrrrWWWWWWrrrrWWWWWRwRwRwRwRwRwRwRwRwrWrrrrrWWWWrrWWWRwRwRwRwRwrWrWrWrWrWrrrrWrWWWWRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrWWWWWWWWRwRwRwRwRwRwrWrrrrrrrrrrWWWWWWWWWWRwRwRwrWrWrWrrrWWWRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrWWWWWRwRwRwRwrWrWrWRwRwRwrWrWrWrWrWrrrrrrWWWWWWRwRwrWrWRwRwRwRwRwrWrWrWrWrrrrWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWrWrWrrrWWWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrrrWWWRwRwRwRwrWrWrWrWRwRwRwrWrWrWrrrrrWWWWWRwRwRwRwrWrWrWrWRwRwRwrWrWrWrrWWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwrrrrrrrrWWWWWWWWRwrWRwRwRwrWrWrWrWrWrWRwRwrrrrrWWWWWRwRwRwrWrWrWrWrWrWRwRwrWrWrWrWRwRwrWrWrWrWRwRwRwRwrWrWrrrrWWWWRwRwrWrWrWrWrWrWRwRwRwRwrWrrrrWWWWRwRwrWrWrWrWRwRwRwRwRwRwRwrWrWrWrrrrrrrWWWWWWWRwRwRwrWrWRwRwRwRwrWrWrWrWrWrWrrrrWWWWRwrWrWrWRwRwRwRwrWrWrWrWrWrrrrrWWWWWRwRwrWrrrWWWRwRwRwrWrWrWrrrWWWRwRwRwrWrWrWrWRwRwRwRwRwrWrWrWrrrrWWWWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrWrWRwrWrrrrWWWWRwrWrWRwRwRwrWrWrWrWrrrWWWRwRwRwRwRwRwrWrWrrrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWRwrWrWRwrrrWWWRwRwRwRwRwrWrWrWrWrWRwrWrWRwRwRwrWrWrWrWRwrWrWRwRwrWrrrWWWRwRwRwRwrWrWrWrWRwrWrrWWRwRwrWrWrWRwRwrWrrrWWWRwrrWWRwRwRwRwRwRwRwRwRwRwrWrWRwRwrWrWrWrWRwrWrrrrWWWWRwRwrWrWrWrRwWrrWWRwrrWWRwRwRwRwRwRwrWrWrWrWrWrWrWrrWWRwrWrWRwrWrWRwrWrWRwrWrWRwRwrWrWRwRwRwRwrWrWrWrWrrWWRwrrrrrrWWWWWWRwrWrWRwRwrWrWrWrRwrrWrWWWRwRwRwRwrWrWRwRwRwrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrrrrrWWWWWRwRwRwRwrWrWrWrWrWrWRwrrrrrrrrrrrrrrrrWWWWWWWWWWrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrWWWWRwRwRwRwRwrrrrrrrrWWWWWWrrrrrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrRwWrrWWrWWWWWWWWRwRwRwRwRwrWrWrrrrrrrrrWWWWWWWWrWWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrWWWRwRwRwRwrWrWrWrWrWrWrrrWWWRwRwRwRwrWrWrrrrWWWWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrrrWWWRwRwrWrWrWrWRwrWrWRwRwRwrWrWrWrWrrWWRwrWrWRwRwrWrWrrWWRwrrWWRwrWrWrWRwRwrWrRwrrWWrWWRwRwrWrWrWrWRwRwRwrWrrrWWWRwRwrWrWrWrWrWRwRwRwRwrWrWrrrrWWWWRwrWrrWWRwRwRwRwrWrWrrrWWWRwrWrrWWRwRwRwrrrrWWWWRwRwRwrWrWrWrrrWWWRwRwrrrrWWWWRwrWrWRwRwrrrrWWWWRwRwrrrrWWWWRwRwrWrWrrWWRwRwRwRwrWrWrrrrWWWWRwRwRwrWrWrrrrrWWWWWRwRwrWrWrWrWRwRwRwRwRwrWrWrWrWrWrWrrrrWWWWRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwrWrWrWrWrWrWrWrrrWWWRwRwRwrrrrrWWWWWRwRwRwrWRwRwrWrWRwrWrWRwRwrWrWrWrWRwrrWWRwrWrWRwrrWWRwRwRwRwrrrWWWRwrrWWRwRwRwRwRwRwRwRwRwrWRwrWrWrrrWWWRwRwRwRwRwRwrWrWrWrWrWrWrWrrWWRwrrrWWWRwRwrWrWrWrWRwRwrWrrrWWWRwRwrWrWrrWWRwRwRwrrrrWWrWWWRwRwrWrWrWRwRwrWrWrrWWRwRwrWrWrrWWRwrrWWRwRwrrWWRwrrWWRwRwrrWWRwrrrrrWWWrWWWRwRwRwRwrWrWrWrWrWrWRwRwRwrWrWrWrrrWWrWWRwRwrWrrrWWWRwRwrWrrrWWWRwrWrWRwrWrRwrrWWWRwrWrWRwRwRwRwRwRwRwrWrWrWrWrrrrrWWWWWRwrWrWRwRwRwrWrWrWrWrWrWRwRwrWrWrWrWRwRwRwrWrWrWrWRwRwrWrWrWRwrrWWRwrWrWRwRwrWrWRwrWrWrrWWRwRwrWrWrWrWRwRwRwrWrWrWrWrWRwRwRwRwRwrWrWrWrWRwrWrWRwRwRwrWrWrrrrrrWWWWWWRwRwRwrWrrrrrrrrrWWWWWWWWWRwRwRwrWrWrWrWrWrWRwRwrrrrWWWWRwrWrRwrrWWWRwRwRwrWrWrrrWWWRwRwRwrWrrrrWWWWRwRwRwrWrrrrWWWWRwRwrWrrrWWWRwrWrWRwRwrWrrrWWWRwRwrrrrrrWWWWrWWWRwRwRwRwrWrWrWrWrrWWRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWRwRwRwRwrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwRwrWrWrWrWrWrWrWRwRwRwrWrWrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWRwRwrWrrrWWWRwRwrWrrrWWWRwRwRwRwRwRwrrrWWWRwRwRwrWrWrWrWrrrWWWRwRwRwrWrrrWWWRwrWrWRwrWrrWWRwRwRwRwrWrWRwRwrWrWrWrWRwRwrWrWrWrrWWRwRwRwRwrWrWrWrWRwRwrWrWrWrWRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwrrWWRwrWrWRwRwrWrWrWrWRwrWRwrWrWRwrWrWRwRwRwrWrWrWrWRwrWrWRwrWrWRwrWrWRwRwRwrWrWrWrWRwRwRwrWrWrWrWRwRwRwrWrWrWRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWrrWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWrWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrWWWWWWWWWrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWRwrWrWrWrWrWrWrrrrrrrWWWWWWWRwRwRwRwRwrWRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrWWWWWRwRwRwRwRwrWrWrWrWRwRwrWrrrWWWRwrWRwRwRwRwRwrWrWrWrWrWrrrrrWWWWWRwRwRwRwRwRwRwRwRwRwrrrrWWWWRwRwRwRwRwrWrWRwRwrWrrrWWWRwrWrWrWRwRwrWrrrWWWRwRwrWrWrWRwRwrWrrrWWWRwrWrWrWRwRwRwRwrWrWrWrrrWWWRwRwrWrrrWWWRwRwrWrWrWrWRwRwRwRwrWrWrrWWRwrWrWrrWWRwRwrWrrrWWWRwrWrWRwRwrWrrrrWWWWRwrWrWRwrrWWRwRwRwrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWRwRwRwrWrWrWrrrrrWWWWWRwRwrWrWrWRwrWrWRwRwRwRwrWrWrWrWrWrWrrWWRwRwrWrWRwRwRwrWrWrrWWRwRwrWrWRwRwRwrWrWrrrrWWWWRwRwRwrWrWrWrrrrrWWWWWRwrWrWRwRwrWrrrWWWRwRwrWrWRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrWWWWrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrWWWWWWWWWWWrWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwrWrWrWrWRwRwrWrrWWRwRwRwrrrrrWWWWWRwrWrWrWRwRwRwRwrWrWrWrWrWrWRwRwRwrWrWrWrWrrrWWWRwrWrWRwRwrWrWrrrrWWWWRwrWrRwRwrrrrWWWWWRwRwrWrWRwRwRwRwrWrWrWrWrWrWrrWWRwrrWWRwrrWWRwRwrrWWRwrWRwRwrWrrrWWWRwrWrWRwRwrWrWrrWWRwrWrWRwrrWWRwrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrrrWWWRwRwRwrWrWrrrWWWRwrrrWWWRwRwrWrWrWrWrWRwRwrWrrrWWWRwrWrWRwRwrWrrrWWWRwRwrWrrrrWWWWRwRwRwrWrWrWrrrWWWRwRwRwRwrWrrrWWrrWrWWWRwRwRwrWrWrWrrrWWWRwRwrWrWrWrWRwRwrWrWRwRwRwrWrrrrWWWWRwRwrWrrrWWWRwRwRwrWrWrWRwRwRwRwrWrWrWrWrWrWrWRwRwrrrrrWWWWWRwrWrWRwRwRwRwrWrWrWrrrrrWWWWWRwRwrrrrWWWWRwRwRwrWrWrrWWRwRwRwrrrrWWWWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrWWrrrWWWWRwRwrWrrWWRwrrWWRwRwrrWWRwrrWWRwrrWrrWWWRwRwRwRwrWrrrWWWRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrWWrrrrWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrWWWWWRwRwRwrWrrrrWWWWRwrrWWRwrrWWRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwrWrWrWrWrrrrWWWWRwRwRwrWrWRwRwRwRwrWrrrrrrWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrrrrrrWrrrWWrWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrWWWWWWWWWWRwRwRwRwRwRwrWrWrrrrrrWWWWWWRwRwRwRwRwRwrWrWrWrWrrrrrrrWWWWWWWRwRRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrWWWWWRwRwrWrrrWWWRwRwRwRwRwRwrrrrrrrrWWWWWWWWRRwRwRwRwRwRwrWrWrrrrrrrWWWWWWWRwRwrWrrrWWWRwRwRwRwRwRwRwRwRwrrWWRwRwRwRwrWrrrWrWWWRwRwRwRwrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWRwrrWWRwrWrWrWRwRwrWrWrWrWRwRwrWrWrrWWRwrWrWRwRwRRwrWrWrWrWrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrWWWWWWWWWWWWWrWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWRwRwRwRwRrWrWrWrWrrWWrWRwRwRwrWrWrWrWrrWWRwRwRwrWrWrWrrWWRwrrrrWWWWRwRwRwRwRwRwRwRwRwrWrWRwRwrWrWrWrWRwrrrrrWWWWWRwrWrWRwRwrWrWrWrrWWRwRwrWrWRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrrWWRwRwrWrWrWrRwrrrWWWWRwRwRwRwRwrWrWrWrrrrrrWWWWWWRwRwrWrWrWrWRwrWrrWWRwRwRwRwrWrWrWrWRwRwrWrWrWrWRwRwRwRwRwrWrWrWrWRwRwrWrWrWrWrWRwRwRwrWrWrWrWRwRwrWrWrWrWRwrrrWWWRwRwRwrWrWrWRwRwRwrWrWrWrrrWWWRwRwrWrWrWRwRwrWrWrWrWRwRwRwrWrWrWrWRwRwrWrWrWrrWWRwRwRwRwRwrWrWrWrWrWRwRwrWrWrWRwRwrWrWrWrWRwRwrWrWrWrWRwRwrrWWRwRwRwRwRwrWrWrWrWrWrWrWrWRwrWrWRwRwRwrWrWrWrWrWrrWWRwrWrWRwRwRwrrrrWrWWWWRwrWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWrrWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwrWrWrWrWRwRwRwrWrWrWrWRwrWrWRwRwrWrWrWrrWWRwRwrWrWrWrWRwRwRwRwrWrWrWrWRwRwrWrWrWRwRwrWrWrWrWRwRwRwrWrWrWrWRwRwrWrWrWrWRwRwRwRwrWrrrrrrrWWWWWWWRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrWWWWWWrWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwrWrrrrrrrrrrWWWWWWWWWWRwRwRwRwRwRwRRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrWrWrrrrrrrrrrWWrrrrrWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWRwRwRwRwRwRwRwRwRwrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrrWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWWrrrWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwrWrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrWWrrrrrrrrrrWWWWWWWWrrrrrrWWWWWWWrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWrrrrrrrrrrrrWWWWrWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWrrrrrrrrrrrrrWWWWWWWWWWrrrrrrrrrrrrrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrWWWWWWWWWWWrrrrrrrWWWWWWWWWWWWrrWWWWrrrrWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWRwRwrWrWRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwRwrWrWrWrWrWrWrrrrrrrrrrWTue Aug  1 23:25:10 2017 us=3707 client1/124.127.118.179:60414 write TCP_SERVER: Connection reset by peer (code=104)
+WTue Aug  1 23:25:10 2017 us=3756 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=3776 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=3794 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=3812 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=3830 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=3847 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=3865 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=4060 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+WTue Aug  1 23:25:10 2017 us=4128 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+RwRwRwRwRwRwRwRwRwRwRwRwrWTue Aug  1 23:25:10 2017 us=5019 client1/124.127.118.179:60414 write TCP_SERVER: Broken pipe (code=32)
+RwRwRwRwRwRwRwRwRwRwTue Aug  1 23:25:10 2017 us=5612 client1/124.127.118.179:60414 Connection reset, restarting [0]
+Tue Aug  1 23:25:10 2017 us=5639 client1/124.127.118.179:60414 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Tue Aug  1 23:25:10 2017 us=6236 TCP/UDP: Closing socket
